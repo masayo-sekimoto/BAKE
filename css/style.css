@@ -1,0 +1,430 @@
+﻿@charset "utf-8";
+/*全体の設定*/
+
+* {
+	margin: 0px;
+}
+body {
+	background-color: #FFF;
+	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size: 14px;
+}
+img {
+	border-style: none;
+}
+#wrapper {
+	width: 900px;
+	margin-right: auto;
+	margin-left: auto;
+}
+h1 {
+	color: #291900;
+	font-weight: lighter;
+	font-size: 26px;
+}
+h2 {
+	color: #291900;
+}
+h3 {
+	color: #291900;
+	font-weight: normal;
+}
+a: {
+ text-decoration: none;
+ color:#291900;
+}
+a:link {
+	text-decoration: none;
+	color: #291900;
+}
+a:visited {
+	text-decoration: none;
+	color: #291900;
+}
+a:hover {
+	text-decoration: none;
+	color: #A37C50;
+}
+.clearfix {
+	clear: both;
+}
+/*ページトップの設定*/
+
+#head {
+	padding: 0;
+	width: 900px;
+	height: 100px;
+}
+#head p img {
+	float: left;
+	margin-right: 200px;
+}
+#head_menu ul {
+	padding: 0;
+}
+#head ul li {
+	list-style-type: none;
+	float: left;
+	padding-right: 23px;
+	padding-left: 23px;
+	padding-top: 78px;
+	padding-bottom: 0px;
+	font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #291900;
+}
+#title {
+	height: 50px;
+	width: 730px;
+}
+/*コンテンツの設定*/
+#main {
+	width: 900px;
+	height: auto;
+}
+#contents {
+	float: right;
+	width: 730px;
+}
+#icon {
+	width: 300px;
+	height: 45px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+}
+#icon ul {
+	padding: 0;
+}
+#icon ul li {
+	list-style-type: none;
+	float: left;
+	padding-bottom: 0px;
+	padding-right: 6px;
+}
+.followme {
+	float: left;
+	padding-bottom: 0px;
+	padding-left: 2px;
+}
+/*もともとheight380pxの設定*/
+#twitter {
+	width: 300px;
+	height: 265px;
+	border: solid 1px;
+	clear: both;
+}
+#twitter_title {
+	clear: both;
+	width: 300px;
+	height: 28px;
+	color: #291900;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: center;
+	border-bottom-style: inset;
+	border-bottom-color: #291900;
+	border-width: 2px;
+}
+#sub {
+	float: left;
+	margin-right: 10px;
+	margin-left: 0px;
+	width: 160px;
+	font-size: 12px;
+	color: #291900;
+	height: 580px;
+}
+#sub ul {
+	padding: 0px;
+}
+#sub ul li {
+	list-style-type: none;
+	padding-top: 3px;
+}
+.facebook {
+	float: left;
+	padding-left: 0px;
+	padding-right: 12px;
+	padding-bottom: 5px;
+}
+.twitter {
+	float: left;
+	padding-bottom: 5px;
+}
+.instagram {
+	float: right;
+	padding-right: 0px;
+	padding-left: 12px;
+	padding-bottom: 5px;
+}
+/*フッターの設定*/
+
+#foot {
+	clear: both;
+	width: 900px;
+	padding-top: 5px;
+}
+#foot ul {
+	padding-right: 200px;
+	padding-left: 200px;
+}
+#foot ul li {
+	list-style-type: none;
+	float: left;
+	padding-right: 30px;
+	padding-left: 30px;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #291900;
+}
+#underline {
+	border-top-style: inset;
+	border-color: #291900;
+	padding-bottom: 5px;
+}
+.copyright {
+	clear: both;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: #291900;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/*indexのページ*/
+.bx {
+	width: 900px;
+	height: 450px;
+	padding-bottom: -20px;
+}
+#index_menu {
+	width: 900px;
+	height: 44px;
+	margin-bottom: 5px;
+}
+#index_menu ul {
+	padding: 0px;
+}
+#index_menu ul li {
+	list-style-type: none;
+	float: left;
+}
+.r_p {
+	padding-right: 12px;
+}
+.l_p {
+	padding-left: 2px;
+}
+#lside {
+	width: 595px;
+	height: 313px;
+	background-color: #ffffff;
+	float: left;
+}
+#rside {
+	width: 300px;
+	height: 313px;
+	float: right;
+	background-color: #ffffff;
+}
+#news {
+	width: 593px;
+	height: 262px;
+	background-color: #ffffff;
+	border: 1px solid #291900;
+	margin-bottom: 5px;
+}
+#news_title {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 4px;
+}
+dl.update-scroll {
+	list-style-type: none;
+	width: 592px;
+	height: 226px;
+	overflow: auto;
+	padding-left: 1px;
+	font-size: 13px;
+}
+dl.update-scroll dd {
+	margin-top: 1px;
+}
+dl.update-scroll dt {
+	margin-top: 1px;
+}
+dl.update-scroll a {
+	text-decoration: none;
+}
+#co_bl {
+	height: 44px;
+	width: 545px;
+	float: right;
+}
+#co_bl ul {
+	padding: 0px;
+}
+#co_bl ul li {
+	list-style-type: none;
+	float: left;
+	padding-left: 7px;
+}
+#egg {
+	height: 44px;
+	width: 50px;
+	float: left;
+}
+/*レシピの設定*/
+#bouledeneige {
+	float: left;
+	width: 300px;
+	height: 250px;
+}
+#tejyun {
+	float: right;
+	width: 430px;
+	height: 250px;
+}
+#zairyou {
+	clear: both;
+	width: 300px;
+	height: 250px;
+	padding-top: 10px;
+}
+#backnumber ul {
+	padding: 0;
+}
+#backnumber li {
+	list-style-type: none;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 130px;
+	height: 150px;
+	text-align: center;
+	color: #291900;
+}
+.backnumber_img {
+	padding-right: 265px;
+	padding-left: 265px;
+	padding-bottom: 10px;
+}
+/*季節のタルトの設定*/
+#leftmenu {
+	float: left;
+	width: 300px;
+	height: 450px;
+	margin-left: 40px;
+}
+#rightmenu {
+	float: right;
+	width: 300px;
+	height: 450px;
+	margin-right: 40px;
+}
+#setumei {
+	width: 300px;
+	height: 200px;
+	text-align: center;
+}
+/*Contactの設定*/
+#map {
+	margin-top: 10px;
+	float: right;
+	width: 300px;
+	height: 250px;
+}
+/*クリスマスの設定*/
+#christmas_tarte {
+	width: 730px;
+	height: 530px;
+}
+/*aboutのページ*/
+#gaikan {
+	margin-top: 10px;
+	float: right;
+	width: 300px;
+	height: 250px;
+}
+#annai {
+	width: 380px;
+	float: left;
+	margin-top: 10px;
+	padding-left: 10px;
+}
+/*menuのページ*/
+
+.menu_contents {
+	width: 730px;
+}
+.menu_contents ul {
+	padding: 0px;
+}
+.menu_contents ul li {
+	list-style-type: none;
+	float: left;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.menu5 {
+	clear: both;
+	padding-right: 115px;
+	padding-left: 115px;
+}
+.menu_list {
+	margin-right: 31px;
+	margin-left: 31px;
+}
+.bigcookie {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: both;
+	padding-right: 115px;
+	padding-left: 115px;
+}
+.bigtarte {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	clear: both;
+	padding-right: 115px;
+	padding-left: 115px;
+}
+.moji {
+	clear: both;
+	text-align: right;
+}
+.menu_list a img {
+	padding-bottom: 10px;
+}
+.smallmenu {
+	text-align: right;
+	padding-right: 36px;
+	padding-bottom: 10px;
+}
+#backnumber {
+	width: 730px;
+}
+#backnumber ul {
+	padding-right: 85px;
+	padding-left: 85px;
+}
+#title p {
+	font-size: 16px;
+	color: #291900;
+}
+#sub_menu {
+	color: #291900;
+}
+.jyuusho {
+	margin-top: 5px;
+}
+.contact {
+	margin-top: 5px;
+}
