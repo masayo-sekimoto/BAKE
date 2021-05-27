@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* iPad (min-width:769px) and (max-width:992px) */
+
+nav.nav-sp{
+    display: none;
+}
+nav.faq_nav ul{
+    width: 720px;
+    margin: auto;
+}
+.btn_aplly_01,.btn_aplly_02{
+    width: 100%;
+    height: 205px;
+}

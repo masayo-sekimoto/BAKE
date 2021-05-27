@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* スマホ (max-width:544px) */
+h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.w-625{
+    width: 100%!important;
+}
+.fs_xlg{
+    font-size: 1.2rem!important;
+}
+.fs_lg{
+    font-size: 1.19rem!important;
+}
+.fs_md{
+    font-size: 1.05rem!important;
+}
+.snsIcon{
+    margin-top: 30px;
+  }
+main{
+    margin-top: 72px;
+}
+section.mainVisual img.main_title {
+    max-width: 520px;
+    width: 100%;
+}
+section.mainVisual .btn_login {
+    margin: 40px auto 10px;
+}
+section.mainVisual h2 {
+    padding: 20px 0;
+}
+section.maintitleArea {
+    overflow: hidden;
+    font-size: 1rem;
+}
+section.greetingArea nav{
+    display: none;
+}
+section.greetingArea .greetingArea-inner h4 {
+    background: url(../images/050b.png) no-repeat top center;
+    background-size: 65px;
+    padding: 72px 0 19px 0;
+    margin: 20px auto 0;
+    width: 100%;
+}
+section.newsArea h4::before {
+    width: 100%;
+}
+section.overviewArea h4::before {
+    width: 100%;
+}
+section.overviewArea img.icon-a {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 65px;
+    height: 34px;
+}
+section.overviewArea img.icon-b {
+    display: block;
+    margin: 0 auto 10px;
+    max-width: 65px;
+    height: 60px;
+}
+.btn_01,.btn_02{
+    text-align: center;
+}
+.btn_aplly_01,.btn_aplly_02{
+    width: 100%;
+    height: 171px;
+}
+.btn_aplly_01{
+    margin-bottom: 60px;
+}
+nav.faq_nav {
+    display: none;
+}
+section.faqArea .btn_contact {
+    margin: 30px auto 0;
+}
+section.descriptionArea .btn_program{
+    width: 250px;
+    line-height: 1.8;
+}
